@@ -26,4 +26,3 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 将项目打包到子目录
 刚刚，我们是将文件，打包为根目录访问的。也就是说，必须在 dist 文件夹下面启动一个服务，才能把项目跑起来。 但是我们开发的大多数项目，可能是必须跑在二级目录，甚至更深层次的目录的。怎么做呢？ 我们编辑 config/index.js 文件，找到assetsPublicPath: '/'，把/修改为我们的子目录的路径就行了，这里我要放到willern，于是，我修改为如下代码：
 
-关于依赖项的低版本，根据需要修改版本，现版本可以运行
