@@ -1,0 +1,26 @@
+footer{
+    background: #333;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    line-height: 85px;
+    text-align: center;
+    & p{
+        overflow: hidden;
+        height: auto;
+    }
+}
+.admin-main{
+    padding-top: 0;
+}
+.markdown-text{
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    & img{
+      display:block;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }  
